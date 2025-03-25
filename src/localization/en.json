@@ -1,0 +1,268 @@
+{
+  "Hero": {
+    "Title": "match analysis with a virtual coach",
+    "Description":{
+      "Review": "review of",
+      "Your": "your",
+      "Game": "game"
+    }
+  },
+
+  "Authorization": {
+    "Log_in_or_create": "Log in or create a profile",
+    "Login": "Login",
+    "Create_profile": "Create a profile",
+    "Get_the_code": "Get the code",
+    "Agreement_start": "I agree",
+    "Agreement_end": " to the terms of use of the trading platform and refund",
+    "Or_log": "or log in via",
+    "Google": "Google",
+    "Facebook": "Facebook"
+  },
+
+  "Menu": {
+    "Menu": "Menu",
+    "News": "News",
+    "Main": "Main",
+    "Price": "Price",
+    "Contacts": "Contacts",
+    "Login": "Login",
+    "Try_it_for_free": "Try it for free",
+    "System_requirements": "System requirements",
+    "Contact_us": "Contact us"
+  },
+
+  "Advantages": {
+    "title": "ADVANTAGES OF OUR COACH",
+    "cards": {
+      "1": {
+        "title": "ANALYSIS",
+        "description": "A virtual coach can analyze each player's performance data and provide personalized recommendations tailored to their unique needs and playing style"
+      },
+      "2": {
+        "title": "PERSONALITY",
+        "description": "The virtual coach adapts to each player's individual needs and playing style, analyzes player performance data, and provides personalized recommendations"
+      },
+      "3":{
+        "title": "AVAILABILITY",
+        "description": "A virtual coach with AI is available to players 24/7. This allows players to receive help, support, and recommendations anytime, anywhere"
+      }
+    }
+  },
+
+  "Coach": {
+    "title": "MORE THAN A COACH",
+    "description": "It is your personal assistant, data analyst and motivation source, available 24/7. He's not just a coach, he's your partner in achieving your football goals",
+    "Try_it_for_free": "Try it for free",
+    "Watch_the_trailer": "Watch the trailer"
+  },
+
+  "News": {
+    "title": "NEWS",
+    "cards": {
+      "1": {
+        "description": "A presentation has been developed and presented to investors, showcasing the project concept and potential."
+      },
+      "2": {
+        "description": "Research and verification of various theories have been conducted to identify the most promising ideas for implementation."
+      },
+      "3": {
+        "description": "The development of the website has begun, including the functionality of a news carousel and video upload mechanism."
+      },
+      "4": {
+        "description": "The next steps for the development of the project have been identified, including the refinement of the website, the improvement of AI functionality and the continuation of the search for investments"
+      }
+    }
+  },
+
+  "Create_Profile": {
+    "title": "CREATE YOUR PROFILE NOW",
+    "list": {
+      "1": {
+        "text": "Track your skills and learn how to improve them"
+      },
+      "2": {
+        "text": "Get personalized recommendations and tips"
+      },
+      "3": {
+        "text": "Access exclusive content and resources"
+      }
+    },
+    "Try_it_for_free": "Try it for free",
+    "age": "Age",
+    "position": "Position",
+    "country": "Country"
+  },
+  "Players": [
+    {
+      "stats": "15/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/1.jpg",
+      "name": "Artem",
+      "surname": "Kovalev",
+      "age": "12",
+      "position": "Forward",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "33/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/2.jpg",
+      "name": "Maxim",
+      "surname": "Smirnov",
+      "age": "10",
+      "position": "Defender",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "7/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/3.jpg",
+      "name": "Daniil",
+      "surname": "Petrov",
+      "age": "14",
+      "position": "Midfielder",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "22/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/4.jpg",
+      "name": "Timur",
+      "surname": "Ivanov",
+      "age": "8",
+      "position": "Forward",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "41/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/5.jpg",
+      "name": "Alexander",
+      "surname": "Morozov",
+      "age": "16",
+      "position": "Goalkeeper",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "9/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/6.jpg",
+      "name": "Egor",
+      "surname": "Lebedev",
+      "age": "11",
+      "position": "Defender",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "18/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/7.jpg",
+      "name": "Ilya",
+      "surname": "Kuznetsov",
+      "age": "13",
+      "position": "Midfielder",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "27/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/8.jpg",
+      "name": "Nikita",
+      "surname": "Sokolov",
+      "age": "15",
+      "position": "Forward",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "5/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/9.jpg",
+      "name": "Matvey",
+      "surname": "Fyodorov",
+      "age": "9",
+      "position": "Defender",
+      "country": "/content/icons/russia.svg"
+    }
+  ],
+  "Tariff_Plans": {
+    "title": "TARIFF PLANS",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "r/m": "RUB/month",
+    "buy": "Buy",
+    "basic": {
+      "title": "BASIC",
+      "price": {
+        "monthly": 159,
+        "annually": 1599
+      },
+      "features": [
+        { "name": "Forum communication", "available": true },
+        { "name": "Video publishing", "available": true },
+        { "name": "Skill gamification", "available": true },
+        { "name": "Referral system", "available": true },
+        { "name": "Post saving", "available": true },
+        { "name": "Match analysis", "available": false },
+        { "name": "Video passport creation", "available": false },
+        { "name": "Community creation", "available": false }
+      ]
+    },
+    "standard": {
+      "title": "STANDARD",
+      "price": {
+        "monthly": 3990,
+        "annually": 39900
+      },
+      "features": [
+        { "name": "Forum communication", "available": true },
+        { "name": "Video publishing", "available": true },
+        { "name": "Skill gamification", "available": true },
+        { "name": "Referral system", "available": true },
+        { "name": "Post saving", "available": true },
+        { "name": "Match analysis", "available": true },
+        { "name": "Video passport creation", "available": true },
+        { "name": "Community creation", "available": false }
+      ]
+    },
+    "pro": {
+      "title": "PRO",
+      "price": {
+        "monthly": 9990,
+        "annually": 99990
+      },
+      "features": [
+        { "name": "Forum communication", "available": true },
+        { "name": "Video publishing", "available": true },
+        { "name": "Skill gamification", "available": true },
+        { "name": "Referral system", "available": true },
+        { "name": "Post saving", "available": true },
+        { "name": "Match analysis", "available": true },
+        { "name": "Video passport creation", "available": true },
+        { "name": "Community creation", "available": true }
+      ]
+    }
+  },
+
+  "Shoot_Match": {
+    "title": "RECORD THE MATCH ON YOUR PHONE",
+    "requirements": {
+      "minimum": {
+        "title": "Minimum Requirements",
+        "os": "Operating System: Android 4.3 or higher, iOS 9.0 or higher",
+        "cpu": "Processor: Dual Core 1.5 GHz or equivalent",
+        "ram": "RAM: 1.5 GB",
+        "storage": "Free disk space: 1 GB",
+        "gpu": "Graphics Processor: Mali-T760MP2 or equivalent"
+      },
+      "recommended": {
+        "title": "Recommended Requirements",
+        "os": "Operating System: Android 6.0 or higher, iOS 13.0 or higher",
+        "cpu": "Processor: Quad Core 2.0 GHz or equivalent",
+        "ram": "RAM: 3 GB",
+        "storage": "Free disk space: 2 GB",
+        "gpu": "Graphics Processor: Adreno 506 or equivalent"
+      }
+    }
+  }
+}

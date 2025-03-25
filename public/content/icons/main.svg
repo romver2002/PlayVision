@@ -1,0 +1,18 @@
+<svg width="1920" height="966" viewBox="0 0 1920 966" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1920" height="966" fill="url(#pattern0_454_2853)"/>
+    <rect width="1920" height="966" fill="url(#paint0_radial_454_2853)"/>
+    <rect width="1920" height="966" fill="url(#paint1_linear_454_2853)"/>
+    <defs>
+        <pattern id="pattern0_454_2853" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <image href="../../img/main_background.jpg" width="1" height="1" preserveAspectRatio="xMidYMid slice"/>
+        </pattern>
+        <radialGradient id="paint0_radial_454_2853" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1235.36 516.5) rotate(179.606) scale(1235.39 502.314)">
+            <stop offset="0.174537" stop-color="#302B2B" stop-opacity="0"/>
+            <stop offset="1" stop-color="#182129"/>
+        </radialGradient>
+        <linearGradient id="paint1_linear_454_2853" x1="-2.62877e-05" y1="483.417" x2="1920" y2="483.417" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#182029"/>
+            <stop offset="1" stop-color="#524B4B" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+</svg>

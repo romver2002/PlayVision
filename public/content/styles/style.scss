@@ -1,0 +1,40 @@
+@use 'tailwindcss/base';
+@use 'tailwindcss/components';
+@use 'tailwindcss/utilities';
+@use 'icons';
+@use 'fonts';
+@use 'mixins';
+
+*{
+  box-sizing: border-box;
+  //line-height: normal;
+}
+
+.container{
+  margin: 0 auto;
+  width: 90%;
+}
+header{
+  max-width: 1620px;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-blue-middle
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-green;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply border-green-dark;
+}

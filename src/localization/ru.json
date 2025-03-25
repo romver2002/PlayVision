@@ -1,0 +1,269 @@
+{
+  "Hero": {
+    "Title": "разбор матча с виртуальным <br> тренером",
+    "Description":{
+      "Review": "обзор",
+      "Your": "твоей",
+      "Game": "игры"
+    }
+  },
+
+  "Authorization": {
+    "Log_in_or_create": "Войти или создать профиль",
+    "Login": "Войти",
+    "Create_profile": "Создать профиль",
+    "Get_the_code": "Получить код",
+    "Agreement_start": "Соглашаюсь",
+    "Agreement_end": "с правилами пользования торговой площадкой и возврата",
+    "Or_log": "или войти через",
+    "Google": "Google",
+    "Facebook": "Facebook"
+  },
+
+  "Menu": {
+    "Menu": "Меню",
+    "Main": "Главная",
+    "News": "Новости",
+    "Price": "Прайс",
+    "Contacts": "Контакты",
+    "Login": "Войти",
+    "Try_it_for_free": "Попробовать бесплатно",
+    "System_requirements": "Системные требования",
+    "Contact_us": "Связаться с нами"
+  },
+
+  "Advantages": {
+    "title": "ПРЕИМУЩЕСТВА НАШЕГО ТРЕНЕРА",
+    "cards": {
+      "1": {
+        "title": "АНАЛИЗ",
+        "description": "Виртуальный тренер может анализировать данные о производительности каждого игрока и предоставлять индивидуальные рекомендации"
+      },
+      "2": {
+        "title": "ИНДИВИДУАЛЬНОСТЬ",
+        "description": "Виртуальный тренер анализирует данные о производительности игрока и предоставляет индивидуальные рекомендации"
+      },
+      "3":{
+        "title": "ДОСТУПНОСТЬ",
+        "description": "Виртуальный тренер с ИИ доступен игрокам 24/7. Это позволяет игрокам получать помощь, поддержку и рекомендации в любое время и в любом месте"
+      }
+    }
+  },
+
+  "Coach": {
+    "title": "БОЛЬШЕ ЧЕМ ТРЕНЕР",
+    "description": "Это ваш персональный помощник, аналитик данных и источник мотивации, доступный 24/7. Он не просто тренер - он ваш партнер в достижении футбольных целей",
+    "Try_it_for_free": "Попробовать бесплатно",
+    "Watch_the_trailer": "Смотреть трейлер"
+  },
+
+  "News": {
+    "title": "НОВОСТИ",
+    "cards": {
+      "1": {
+        "description": "Разработана и представлена инвесторам презентация,  демонстрирующая концепцию проекта и потенциал"
+      },
+      "2": {
+        "description": "Проведено исследование и проверка различных теорий, чтобы выявить наиболее перспективные идеи для реализации"
+      },
+      "3":{
+        "description": "Начата разработка веб-сайта, включая функционал карусельной ленты новостей и механизма загрузки видео"
+      },
+      "4":{
+        "description": "Определены следующие шаги по развитию проекта, включая доработку сайта, улучшение функционала ИИ и продолжение поиска инвестиций"
+      }
+    }
+  },
+
+  "Create_Profile":{
+    "title": "СОЗДАЙТЕ СВОЙ ПРОФИЛЬ СЕЙЧАС",
+    "list": {
+      "1": {
+        "text": "Отслеживайте свои навыки и узнавайте, как их улучшить"
+      },
+      "2": {
+        "text": "Получайте индивидуальные рекомендации и советы"
+      },
+      "3": {
+        "text": "Доступ к эксклюзивному контенту и ресурсам"
+      }
+    },
+    "Try_it_for_free": "Попробовать бесплатно",
+    "age": "Возвраст",
+    "position": "Позиция",
+    "country": "Страна"
+
+  },
+  "Players": [
+    {
+      "stats": "15/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/1.jpg",
+      "name": "Артём",
+      "surname": "Ковалёв",
+      "age": "12",
+      "position": "Нападающий",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "33/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/2.jpg",
+      "name": "Максим",
+      "surname": "Смирнов",
+      "age": "10",
+      "position": "Защитник",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "7/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/3.jpg",
+      "name": "Даниил",
+      "surname": "Петров",
+      "age": "14",
+      "position": "Полузащитник",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "22/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/4.jpg",
+      "name": "Тимур",
+      "surname": "Иванов",
+      "age": "8",
+      "position": "Нападающий",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "41/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/5.jpg",
+      "name": "Александр",
+      "surname": "Морозов",
+      "age": "16",
+      "position": "Вратарь",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "9/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/6.jpg",
+      "name": "Егор",
+      "surname": "Лебедев",
+      "age": "11",
+      "position": "Защитник",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "18/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/7.jpg",
+      "name": "Илья",
+      "surname": "Кузнецов",
+      "age": "13",
+      "position": "Полузащитник",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "27/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/8.jpg",
+      "name": "Никита",
+      "surname": "Соколов",
+      "age": "15",
+      "position": "Нападающий",
+      "country": "/content/icons/russia.svg"
+    },
+    {
+      "stats": "5/54",
+      "football_team": "/content/icons/zenit.svg",
+      "image": "/img/players/9.jpg",
+      "name": "Матвей",
+      "surname": "Фёдоров",
+      "age": "9",
+      "position": "Защитник",
+      "country": "/content/icons/russia.svg"
+    }
+  ],
+  "Tariff_Plans": {
+    "title": "ТАРИФНЫЕ ПЛАНЫ",
+    "monthly": "Ежемесячно",
+    "annually": "Ежегодно",
+    "r/m": "р./месяц",
+    "buy": "Купить",
+    "basic": {
+      "title": "БАЗОВЫЙ",
+      "price": {
+        "monthly": "159",
+        "annually": "1599"
+      },
+      "features": [
+        { "name": "Общение на форуме", "available": true },
+        { "name": "Публикация видео", "available": true },
+        { "name": "Геймификация финтов", "available": true },
+        { "name": "Реферальная система", "available": true },
+        { "name": "Сохранение постов", "available": true },
+        { "name": "Анализ своих матчей", "available": false },
+        { "name": "Создание видео-паспортов", "available": false },
+        { "name": "Создание сообщества", "available": false }
+      ]
+    },
+    "standard": {
+      "title": "СТАНДАРТ",
+      "price": {
+        "monthly": 3990,
+        "annually": 39900
+      },
+      "features": [
+        { "name": "Общение на форуме", "available": true },
+        { "name": "Публикация видео", "available": true },
+        { "name": "Геймификация финтов", "available": true },
+        { "name": "Реферальная система", "available": true },
+        { "name": "Сохранение постов", "available": true },
+        { "name": "Анализ своих матчей", "available": true },
+        { "name": "Создание видео-паспортов", "available": true },
+        { "name": "Создание сообщества", "available": false }
+      ]
+    },
+    "pro": {
+      "title": "ПРОФИ",
+      "price": {
+        "monthly": 9990,
+        "annually": 99990
+      },
+      "features": [
+        { "name": "Общение на форуме", "available": true },
+        { "name": "Публикация видео", "available": true },
+        { "name": "Геймификация финтов", "available": true },
+        { "name": "Реферальная система", "available": true },
+        { "name": "Сохранение постов", "available": true },
+        { "name": "Анализ своих матчей", "available": true },
+        { "name": "Создание видео-паспортов", "available": true },
+        { "name": "Создание сообщества", "available": true }
+      ]
+    }
+  },
+
+  "Shoot_Match":{
+    "title": "СНИМАЙ МАТЧ НА СВОЙ ТЕЛЕФОН",
+    "requirements": {
+      "minimum": {
+        "title": "Минимальные требования",
+        "os": "<b>Операционная система: Android 4.3</b> и выше, <b>iOS 9.0</b> и выше",
+        "cpu": "<b>Процессор: Dual Core 1.5 GHz</b> или эквивалентный",
+        "ram": "<b>Оперативная память:</b> 1.5 ГБ",
+        "storage": "<b>Свободное место</b> на жестком диске: <b>1</b> ГБ",
+        "gpu": "<b>Графический процессор: Mali-T760MP2</b> или эквивалентный"
+      },
+      "recommended": {
+        "title": "Рекомендуемые требования",
+        "os": "<b>Операционная система: Android 6.0</b> и выше, <b>iOS 13.0</b> и выше",
+        "cpu": "<b>Процессор: Quad Core 2.0 GHz</b> или эквивалентный",
+        "ram": "<b>Оперативная память: 3</b> ГБ",
+        "storage": "<b>Свободное место на жестком диске: <b>2</b> ГБ",
+        "gpu": "<b>Графический процессор: Adreno 506</b> или эквивалентный"
+      }
+    }
+  }
+}
