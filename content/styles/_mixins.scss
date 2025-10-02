@@ -1,0 +1,78 @@
+@mixin text-48-newZelek {
+  font-size: clamp(1.75rem, 5vw, 3rem);
+  @apply font-new_zelek;
+}
+
+@mixin text-36-newZelek {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  @apply font-new_zelek;
+}
+
+@mixin text-24-newZelek {
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  @apply font-new_zelek;
+}
+
+@mixin text-20-white-montserrat {
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  @apply text-white font-montserrat;
+  transition: all 0.5s ease-in-out;
+}
+
+@mixin text-20-white-montserrat-hover {
+  @include text-20-white-montserrat;
+  @apply hover:bg-grey-opacity-25 rounded-full hover:text-green;
+}
+
+@mixin text-12-montserrat {
+  @apply font-montserrat text-xs font-bold;
+}
+
+@mixin background-hover($url1, $url2) {
+  background-image: url(#{$url1});
+  transition: all 0.3s ease;
+  background-size: cover;
+  &:hover {
+    background-image: url(#{$url2});
+    transform: rotate(360deg);
+  }
+}
+
+@mixin btn-green {
+  @include text-20-white-montserrat;
+  @apply bg-green text-blue-dark font-bold font-montserrat rounded-full;
+  @apply hover:bg-green-dark transition duration-500 ease-in-out;
+  padding: 12px 23px;
+  @media (max-width: 600px){
+    padding: 5px;
+  }
+}
+
+@mixin btn-green-border {
+  @include text-20-white-montserrat;
+  @apply border-4 border-green text-white font-bold font-montserrat rounded-full;
+  @apply hover:bg-green hover:text-blue-dark transition duration-500 ease-in-out;
+  padding: 12px 23px;
+  @media (max-width: 600px){
+    padding: 5px;
+  }
+}
+@mixin btn-green-border-with-animation{
+  @include text-20-white-montserrat;
+  @apply border-4 border-green text-white font-bold font-montserrat rounded-full;
+  @apply hover:bg-green hover:text-blue-dark transition duration-500 ease-in-out;
+  padding: 12px 23px;
+  @media (max-width: 600px){
+    padding: 5px;
+  }
+  animation: blink-shadow 2s infinite;
+
+  @keyframes blink-shadow {
+    0%, 100% {
+      box-shadow: 0 0 10px 2px #01C38E;
+    }
+    50% {
+      box-shadow: 0 0 10px 2px rgba(0, 255, 0, 0);
+    }
+  }
+}

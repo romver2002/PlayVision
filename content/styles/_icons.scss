@@ -1,0 +1,10 @@
+.icon{
+  background-size: contain;
+
+  &__logo{
+    background: url("../icons/logo.svg");
+  }
+  &__main{
+    background: url("../icons/main.svg");
+  }
+}
