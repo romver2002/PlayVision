@@ -32,6 +32,17 @@
       </div>
     </div>
   </div>
+  <div class="footer__foundation container">
+    <div class="footer__foundation-logo">
+      <img src="../../public/content/icons/fond-logo.svg" alt="Фонд содействия инновациям">
+    </div>
+    <p class="footer__foundation-text">
+      Проект создан при поддержке Федерального государственного бюджетного учреждения
+      «Фонд содействия развитию малых форм предприятий в научно-технической сфере»
+      в рамках программы «Студенческий стартап» федерального проекта
+      «Платформа университетского технологического предпринимательства».
+    </p>
+  </div>
 </footer>
 </template>
 
@@ -112,6 +123,40 @@
         @media (max-width: 1100px) {
           width: 40px;
           height: 40px;
+        }
+      }
+    }
+
+    &__foundation{
+      @apply flex items-center gap-6 mt-8 pt-8;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+
+      @media (max-width: 771px) {
+        @apply flex-col text-center gap-4;
+      }
+
+      &-logo{
+        @apply flex-shrink-0;
+
+        img{
+          width: 180px;
+          height: auto;
+
+          @media (max-width: 771px) {
+            width: 150px;
+          }
+        }
+      }
+
+      &-text{
+        @apply text-white leading-relaxed;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+        opacity: 0.9;
+
+        @media (max-width: 771px) {
+          font-size: 11px;
         }
       }
     }
