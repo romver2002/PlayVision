@@ -10,5 +10,14 @@ module.exports = defineConfig({
   publicPath: process.env.NODE_ENV === 'production'
     ? '/PlayVision/'
     : '/',
-  outputDir: 'dist'
+  outputDir: 'dist',
+  chainWebpack: config => {
+    config.plugin('copy').tap(args => {
+      args[0].patterns[0].globOptions = {
+        ...args[0].patterns[0].globOptions,
+        ignore: ['**/index.html']
+      };
+      return args;
+    });
+  }
 });

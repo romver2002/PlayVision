@@ -33,14 +33,12 @@
     </div>
   </div>
   <div class="footer__foundation container">
-    <div class="footer__foundation-logo">
-      <img src="../../public/content/icons/fond-logo.svg" alt="Фонд содействия инновациям">
+    <div class="footer__foundation-logos">
+      <img src="../../public/content/icons/fond-logo-color.png" alt="Фонд содействия инновациям" class="footer__foundation-logo footer__foundation-logo--color">
+      <img src="../../public/content/icons/fond-logo-white.png" alt="Фонд содействия инновациям" class="footer__foundation-logo footer__foundation-logo--white">
     </div>
     <p class="footer__foundation-text">
-      Проект создан при поддержке Федерального государственного бюджетного учреждения
-      «Фонд содействия развитию малых форм предприятий в научно-технической сфере»
-      в рамках программы «Студенческий стартап» федерального проекта
-      «Платформа университетского технологического предпринимательства».
+      Проект создан при поддержке Федерального государственного бюджетного учреждения «Фонд содействия развитию малых форм предприятий в научно-технической сфере» в рамках программы «Студенческий стартап» федерального проекта «Платформа университетского технологического предпринимательства».
     </p>
   </div>
 </footer>
@@ -135,12 +133,27 @@
         @apply flex-col text-center gap-4;
       }
 
-      &-logo{
-        @apply flex-shrink-0;
+      &-logos{
+        @apply flex-shrink-0 flex items-center gap-4;
 
-        img{
-          width: 180px;
-          height: auto;
+        @media (max-width: 771px) {
+          @apply flex-col gap-3;
+        }
+      }
+
+      &-logo{
+        height: auto;
+
+        &--color{
+          width: 280px;
+
+          @media (max-width: 771px) {
+            width: 200px;
+          }
+        }
+
+        &--white{
+          width: 200px;
 
           @media (max-width: 771px) {
             width: 150px;
