@@ -55,9 +55,10 @@ const { open: openLoginModal } = useLoginModal();
     @media (max-width: 1399px) {
       background-image: url('../../assets/img/main_background_medium.webp');
     }
+    // Позиция наследуется от базового правила (right center): тренер — в правой
+    // части кадра, поэтому якорим фон по правому краю, чтобы объект не уезжал.
     @media (max-width: 767px) {
       background-image: url('../../assets/img/main_background_small.webp');
-      background-position: center;
     }
   }
 
