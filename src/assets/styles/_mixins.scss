@@ -1,0 +1,167 @@
+@mixin text-48-newZelek {
+  font-size: clamp(1.75rem, 5vw, 3rem);
+  @apply font-new_zelek;
+}
+
+@mixin text-36-newZelek {
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  @apply font-new_zelek;
+}
+
+@mixin text-24-newZelek {
+  font-size: clamp(1.25rem, 3vw, 1.5rem);
+  @apply font-new_zelek;
+}
+
+@mixin text-20-white-montserrat {
+  font-size: clamp(1.125rem, 2vw, 1.25rem);
+  line-height: 1.55;
+  @apply text-white font-montserrat;
+  transition:
+    color 0.5s ease-in-out,
+    background-color 0.5s ease-in-out;
+}
+
+@mixin text-20-white-montserrat-hover {
+  @include text-20-white-montserrat;
+  @apply hover:bg-grey-opacity-25 rounded-full hover:text-green;
+}
+
+@mixin text-12-montserrat {
+  @apply font-montserrat text-xs font-bold;
+}
+
+// Единый заголовок секции: New_Zelek, фирменный зелёный,
+// короткая градиентная черта-прожектор под текстом.
+@mixin section-title {
+  @include text-36-newZelek;
+  @apply text-green;
+  letter-spacing: 0.04em;
+  text-align: center;
+
+  &::after {
+    content: '';
+    display: block;
+    width: 56px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 14px auto 0;
+    background: linear-gradient(
+      90deg,
+      rgba(1, 195, 142, 0) 0%,
+      #01c38e 50%,
+      rgba(1, 195, 142, 0) 100%
+    );
+  }
+}
+
+// Единый «материал» карточек: графитовый градиент, 1px световая кромка,
+// внутренняя подсветка сверху и глубокая мягкая тень.
+@mixin card-premium {
+  background: linear-gradient(180deg, #1e2433 0%, #151a26 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 24px 48px -16px rgba(0, 0, 0, 0.55);
+}
+
+// Hover-вариант иконки лежит на псевдоэлементе и проявляется через opacity:
+// смена background-image не анимируется и мигала при первой загрузке hover-svg.
+@mixin background-hover($url1, $url2) {
+  position: relative;
+  background-image: url(#{$url1});
+  background-size: cover;
+  transition: transform 0.3s ease;
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(#{$url2});
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover {
+    transform: rotate(360deg);
+
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+// Общая геометрия кнопок: одна строка, центрированный текст, прозрачная
+// 2px-рамка уравнивает высоту заливных и контурных кнопок.
+@mixin btn-base {
+  @apply font-bold font-montserrat rounded-full;
+  padding: 12px 23px;
+  white-space: nowrap;
+  text-align: center;
+  border: 2px solid transparent;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+
+  @media (max-width: 600px) {
+    padding: 10px 18px;
+    font-size: 1rem;
+  }
+}
+
+// PRIMARY: сочный градиент с зелёной тенью и подъёмом на hover.
+@mixin btn-green {
+  @include text-20-white-montserrat;
+  @include btn-base;
+  color: #0e1119;
+  background: linear-gradient(135deg, #01c38e 0%, #00f052 100%);
+  box-shadow: 0 8px 24px -8px rgba(1, 195, 142, 0.45);
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+// SECONDARY: тихий контур с лёгкой зелёной подложкой.
+@mixin btn-green-border {
+  @include text-20-white-montserrat;
+  @include btn-base;
+  border-color: rgba(1, 195, 142, 0.8);
+  color: #ffffff;
+  background: rgba(1, 195, 142, 0.08);
+
+  &:hover {
+    background: rgba(1, 195, 142, 0.18);
+    border-color: #01c38e;
+  }
+}
+
+// Главный CTA: primary + пульсирующее свечение. Тень нарисована один раз
+// на псевдоэлементе, анимируется только его opacity (композитор, без repaint).
+@mixin btn-green-border-with-animation {
+  @include btn-green;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 9999px;
+    box-shadow: 0 0 12px 3px #01c38e;
+    animation: pulse-glow 2s infinite;
+    pointer-events: none;
+  }
+
+  @keyframes pulse-glow {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+}

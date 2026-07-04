@@ -1,31 +1,11 @@
 import { createApp } from 'vue';
+
 import App from './App.vue';
-import { createI18n } from 'vue-i18n';
+import { i18n } from './plugins/i18n';
 
-import ru from './localization/ru.json';
-import en from './localization/en.json';
+import './assets/styles/tailwind.css';
+import './assets/styles/style.scss';
 
-import '../public/content/styles/style.scss';
+document.documentElement.lang = i18n.global.locale.value;
 
-// Создаём экземпляр i18n
-const i18n = createI18n({
-    legacy: false, // Используем Composition API
-    locale: 'ru', // Язык по умолчанию
-    fallbackLocale: 'en', // Резервный язык
-    messages: {
-        ru,
-        en,
-    },
-});
-
-// Создаём приложение
-const app = createApp(App);
-
-// Подключаем i18n
-app.use(i18n);
-
-// Монтируем приложение
-app.mount('#app');
-
-// Экспортируем экземпляр i18n для использования в других файлах
-export default i18n;
+createApp(App).use(i18n).mount('#app');

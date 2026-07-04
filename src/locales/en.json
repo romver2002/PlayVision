@@ -1,0 +1,159 @@
+{
+  "Hero": {
+    "Title": "match analysis with a virtual coach",
+    "Description": {
+      "Review": "review of",
+      "Your": "your",
+      "Game": "game"
+    }
+  },
+
+  "Authorization": {
+    "Log_in_or_create": "Log in or create a profile",
+    "Get_the_code": "Get the code",
+    "Agreement_start": "I agree",
+    "Agreement_end": "to the terms of use of the trading platform and refund",
+    "Or_log": "or log in via",
+    "Google": "Google",
+    "Facebook": "Facebook",
+    "Phone": "Phone number"
+  },
+
+  "Menu": {
+    "Menu": "Menu",
+    "Main": "Main",
+    "News": "News",
+    "Price": "Price",
+    "Contacts": "Contacts",
+    "Login": "Login",
+    "Try_it_for_free": "Try it for free",
+    "System_requirements": "System requirements",
+    "Contact_us": "Contact us"
+  },
+
+  "Advantages": {
+    "title": "ADVANTAGES OF OUR COACH",
+    "cards": {
+      "1": {
+        "title": "ANALYSIS",
+        "description": "A virtual coach can analyze each player's performance data and provide personalized recommendations tailored to their unique needs and playing style"
+      },
+      "2": {
+        "title": "PERSONALITY",
+        "description": "The virtual coach adapts to each player's individual needs and playing style, analyzes player performance data, and provides personalized recommendations"
+      },
+      "3": {
+        "title": "AVAILABILITY",
+        "description": "A virtual coach with AI is available to players 24/7. This allows players to receive help, support, and recommendations anytime, anywhere"
+      }
+    }
+  },
+
+  "Coach": {
+    "title": "MORE THAN A COACH",
+    "description": "It is your personal assistant, data analyst and motivation source, available 24/7. He's not just a coach, he's your partner in achieving your football goals",
+    "Watch_the_trailer": "Watch the trailer",
+    "Play_video": "Play video"
+  },
+
+  "News": {
+    "title": "NEWS",
+    "cards": {
+      "1": {
+        "description": "A presentation has been developed and presented to investors, showcasing the project concept and potential."
+      },
+      "2": {
+        "description": "Research and verification of various theories have been conducted to identify the most promising ideas for implementation."
+      },
+      "3": {
+        "description": "The development of the website has begun, including the functionality of a news carousel and video upload mechanism."
+      },
+      "4": {
+        "description": "The next steps for the development of the project have been identified, including the refinement of the website, the improvement of AI functionality and the continuation of the search for investments"
+      }
+    }
+  },
+
+  "Create_Profile": {
+    "title": "CREATE YOUR PROFILE NOW",
+    "list": {
+      "1": {
+        "text": "Track your skills and learn how to improve them"
+      },
+      "2": {
+        "text": "Get personalized recommendations and tips"
+      },
+      "3": {
+        "text": "Access exclusive content and resources"
+      }
+    },
+    "age": "Age",
+    "position": "Position",
+    "country": "Country"
+  },
+
+  "Players": {
+    "1": { "name": "Artem", "surname": "Kovalev", "position": "Forward" },
+    "2": { "name": "Maxim", "surname": "Smirnov", "position": "Defender" },
+    "3": { "name": "Daniil", "surname": "Petrov", "position": "Midfielder" },
+    "4": { "name": "Timur", "surname": "Ivanov", "position": "Forward" },
+    "5": { "name": "Alexander", "surname": "Morozov", "position": "Goalkeeper" },
+    "6": { "name": "Egor", "surname": "Lebedev", "position": "Defender" },
+    "7": { "name": "Ilya", "surname": "Kuznetsov", "position": "Midfielder" },
+    "8": { "name": "Nikita", "surname": "Sokolov", "position": "Forward" },
+    "9": { "name": "Matvey", "surname": "Fyodorov", "position": "Defender" }
+  },
+
+  "Tariff_Plans": {
+    "title": "TARIFF PLANS",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "per_month": "RUB/month",
+    "per_year": "RUB/year",
+    "buy": "Buy",
+    "available": "included",
+    "not_available": "not included",
+    "plans": {
+      "basic": "BASIC",
+      "standard": "STANDARD",
+      "pro": "PRO"
+    },
+    "features": {
+      "forum": "Forum communication",
+      "videoPublishing": "Video publishing",
+      "gamification": "Skill gamification",
+      "referral": "Referral system",
+      "postSaving": "Post saving",
+      "matchAnalysis": "Match analysis",
+      "videoPassport": "Video passport creation",
+      "community": "Community creation"
+    }
+  },
+
+  "Shoot_Match": {
+    "title": "RECORD THE MATCH ON YOUR PHONE",
+    "requirements": {
+      "minimum": {
+        "title": "Minimum Requirements",
+        "os": "<b>Operating System: Android 4.3</b> or higher, <b>iOS 9.0</b> or higher",
+        "cpu": "<b>Processor: Dual Core 1.5 GHz</b> or equivalent",
+        "ram": "<b>RAM:</b> 1.5 GB",
+        "storage": "<b>Free disk space</b>: <b>1</b> GB",
+        "gpu": "<b>Graphics Processor: Mali-T760MP2</b> or equivalent"
+      },
+      "recommended": {
+        "title": "Recommended Requirements",
+        "os": "<b>Operating System: Android 6.0</b> or higher, <b>iOS 13.0</b> or higher",
+        "cpu": "<b>Processor: Quad Core 2.0 GHz</b> or equivalent",
+        "ram": "<b>RAM: 3</b> GB",
+        "storage": "<b>Free disk space</b>: <b>2</b> GB",
+        "gpu": "<b>Graphics Processor: Adreno 506</b> or equivalent"
+      }
+    }
+  },
+
+  "Footer": {
+    "foundation": "The project was created with the support of the Federal State Budgetary Institution \"Fund for Assistance to Small Innovative Enterprises in Science and Technology\" under the \"Student Startup\" program of the federal project \"University Technological Entrepreneurship Platform\".",
+    "foundation_logo_alt": "Innovation Assistance Foundation"
+  }
+}

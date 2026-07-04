@@ -1,0 +1,50 @@
+// Исходный TTF имел битые searchRange в заголовках таблиц, и браузеры
+// молча отвергали шрифт (заголовки всегда падали в fallback).
+// Файл восстановлен принудительной перекомпиляцией таблиц через fontTools.
+@font-face {
+  font-family: 'New_Zelek';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('../fonts/New_Zelek/New_Zelek.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('../fonts/Montserrat/Montserrat-Thin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/Montserrat/Montserrat-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Montserrat/Montserrat-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/Montserrat/Montserrat-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/Montserrat/Montserrat-Bold.woff2') format('woff2');
+}
