@@ -29,9 +29,10 @@ const { open: openLoginModal } = useLoginModal();
 </script>
 
 <style scoped lang="scss">
-// Высота и ширина фона заданы статично по натуральным размерам изображений
-// (раньше это вычислял JS после загрузки невидимой картинки — страница прыгала,
-// а фон скачивался дважды). WebP-версии в 10+ раз легче исходных JPEG.
+// Фон заполняет секцию на любой ширине через background-size: cover (адаптивно),
+// раньше ширина была задана статично в пикселях и не тянулась под экран.
+// Три WebP-версии (small/medium/large) подключаются по медиазапросам — это в
+// 10+ раз легче исходных JPEG и без layout-shift.
 .hero {
   @apply relative;
   height: 966px;
@@ -44,20 +45,19 @@ const { open: openLoginModal } = useLoginModal();
   }
 
   &__bg {
-    @apply h-full relative;
+    @apply h-full w-full relative;
     background-image: url('../../assets/img/main_background.webp');
     background-repeat: no-repeat;
     background-position: right center;
-    width: 1920px;
+    background-size: cover;
     z-index: 1;
 
     @media (max-width: 1399px) {
       background-image: url('../../assets/img/main_background_medium.webp');
-      width: 1487px;
     }
     @media (max-width: 767px) {
       background-image: url('../../assets/img/main_background_small.webp');
-      width: 1018px;
+      background-position: center;
     }
   }
 
